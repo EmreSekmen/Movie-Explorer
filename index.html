@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/stylesheet.css">
+    <link rel="stylesheet" href="/css/responsive.css">
+</head>
+
+<body>
+
+    <nav>
+
+        <div class="nav-container">
+
+            <h1>Movie Explorer</h1>
+
+
+            <div class="search">
+
+                <label for="searchinput">Search</label>
+                <input id="searchinput" type="text">
+
+            </div>
+
+        </div>
+
+
+
+
+
+    </nav>
+
+
+    <div class="profile-buttons">
+
+    <button id="allMovies-button" class="profile-button">All Movies</button>
+       <button id="myFavorite-button" class="profile-button">My Favorites</button>
+       <button id="myWatched-button" class="profile-button">Watched</button>
+       <button id="myWantToWatch-button" class="profile-button">Watchlist</button>
+
+
+    </div>
+
+
+
+    <p id="noResults"></p>
+
+    <section id="movie-container">
+
+
+
+    </section>
+
+
+
+
+    <div id="movie-modal" class="movie-modal">
+
+        <div class="modal-content">
+
+            <button id="close-modal">X</button>
+
+
+            <div class="poster-container">
+
+                <img id="modal-image" src="" alt="">
+                <div class="button-container">
+
+                    <button class="modal-button" id="favorite-button">♥️Favorite</button>
+                    <button class="modal-button" id="watched-button">Watched</button>
+                    <button class="modal-button" id="wanttowatcht-button">Want to watch</button>
+
+
+
+                </div>
+
+
+
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+            <div id="about-movie">
+
+            </div>
+
+            <div>
+
+
+                <h2 id="modal-title"></h2>
+
+
+
+                <p id="modal-description"></p>
+                <p id="modal-category"></p>
+                <p id="modal-rating"></p>
+                <p id="modal-director"></p>
+
+                <div id="sequel-container">
+                    <p id="modal-sequel"></p>
+                    <img id="sequel-image" src="" alt="">
+
+
+                </div>
+
+            </div>
+
+
+
+        </div>
+
+
+    </div>
+
+    <script src="/js/data.js"></script>
+    <script src="/js/API.JS"></script>
+    <script src="/js/detay.js"></script>
+    
+
+</body>
+
+</html>

@@ -1,0 +1,150 @@
+const movies = [
+    {
+        
+        id: 1,
+        sequelİd: 2,
+        name: "Batman Begins",
+        category: "crime",
+        image: "/photos/batmanbegins.jpg",
+        director: "Director: Christopher Nolan",
+        sequel: "Sequel: Dark Knight",
+        sequelImage: "/photos/darkknight.jpg",
+        imdbId: "tt0372784",
+        description: "After witnessing his parents' death, billionaire Bruce Wayne learns the art of fighting to confront injustice. When he returns to Gotham as Batman, he must stop a secret society that intends to destroy the city."
+        
+
+    },
+    { 
+        id : 2,
+        sequelİd: 3,
+        name: "Dark Knight",
+        category: "crime",
+        image: "/photos/darkknight.jpg",
+        director: "Christopher Nolan",
+        sequel: "Sequel: Dark Knight Rises",
+        imdbId: "tt0468569",
+        sequelImage: "/photos/darkknightrises.jpg",
+        description: ""
+    },
+    {
+       id: 3,
+       name: "Dark Knight Rises",
+       category: "crime",
+       image: "/photos/darkknightrises.jpg",
+       imdbId: "tt1345836",
+       director: "Christopher Nolan",
+    },
+    {
+        id: 4,
+        sequelİd: 5,
+        sequelImage: "/photos/lotrtt.jpg",
+        name: "The Lord of the Rings: Fellowship of the ring",
+        category: "fantasy",
+        image: "/photos/lotrfor.jpg",
+        imdbId: "tt0120737",
+        director: "Peter Jackson"
+    },
+    {
+        id:5,
+        sequelİd: 6,
+        sequelImage: "/photos/lotrrok.jpg",
+        name: "The Lord of the Rings: The Two Towers",
+        imdbId: "tt0167261",
+        category: "fantasy",
+        image: "/photos/lotrtt.jpg",
+        director: "Peter Jackson"
+    },
+    {
+        id:6,
+        name: "The Lord of the Rings: Return of the King",
+        category: "fantasy",
+        imdbId: "tt0167260",
+        image: "/photos/lotrrok.jpg",
+        director: "Peter Jackson",
+    },
+    {
+        id: 8,
+        name: "The Odyssey",
+        category: "edventure",
+        imdbId: "tt33764258",
+        image: "/photos/theodyssey.jpg",
+        director: "Christopher Nolan",
+
+    },
+    {
+        id:9,
+        name: "Inception",
+        category: "action",
+        imdbId: "tt1375666",
+        image: "/photos/inception.jpg",
+        director: "Christopher Nolan",
+    },
+    {
+        id: 10,
+        name: "Blade Runner 2049",
+        category: "Sci-Fi",
+        imdbId: "tt1856101",
+        image: "/photos/inception.jpg",
+        director: "Denis Villeneuve",
+    },
+    {
+        id: 11,
+        name: "Dr.Stranglelove",
+        category: "Sci-Fi",
+        imdbId: "tt0057012",
+        image: "/photos/drstranglelove.jpg",
+        director: "Stanley Kübrick",
+    },
+    {
+        id: 12,
+        name: "2001: A Space Odyssey",
+        category: "Sci-Fi",
+        imdbId: "tt0062622",
+        image: "/photos/2001asp.jpg",
+        director: "Stanley Kübrick",
+    },
+    {
+        id: 13,
+        name: "Puss in Boots: The Last Wish",
+        category: "animation",
+        imdbId: "tt3915174",
+        image: "/photos/pussinboots.jpg",
+        director: "Joel Crawford",
+
+    },
+    {
+        id: 14,
+        name: "The Prestige",
+        category: "drama",
+        image: "/photos/prestige.jpg",
+        director: "Christopher Nolan",
+        imdbId: "tt0482571",
+    },
+    {
+        id:15,
+        name: "The Revenant",
+        category: "edvventure",
+        image: "/photos/therevenant.jpg",
+        director: "Alejandro González Iñárritu",
+        imdbId: "tt1663202",
+    },
+    {
+        id: 16,
+        sequelİd: 17,
+        sequelImage: "/photos/starwarsempiresstrikesback.jpg",
+        name: "Star Wars",
+        category: "Sci-Fi",
+        image: "/photos/starwars1977.jpg",
+        director: "George Lucas",
+        imdbId: "tt0076759",
+    },
+    {
+        id: 17,
+        name: "Star Wars: Empire Strikes Back",
+        category: "Sci-Fi",
+        image: "/photos/starwarsempirestrikesback.jpg",
+        director: "George Lucas",
+        imdbId: "tt0080684",
+    }
+
+]
